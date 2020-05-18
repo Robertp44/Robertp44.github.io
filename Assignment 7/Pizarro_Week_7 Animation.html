@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <style>
+
+    .mountain{
+      background-image:url("Images/mountain.jpg");
+      width:700px;
+      height:500px;
+      position: relative;
+      margin:auto;
+    }
+
+.bus{
+   width:150px;
+   height:120px;
+   bottom:0px;
+   position:absolute;
+   animation-name:example;
+   animation-duration:4s;
+
+   animation-iteration:4;
+   animation-delay:2s;
+   animation-timing-function: ease;
+   animation-direction:alternate;
+
+   -- -webkit-animation-name:example;
+   -- -webkit-animation-duration:4s;
+   -- -webkit-animation-iteration:4;
+    }
+
+@keyframes example {
+
+    0%  {left:0px; top:380px; }
+    100%  {left:505px; top:380px;  }
+
+}
+
+
+  </style>
+
+  <body>
+
+
+<div class="mountain">
+  <div class="bus">
+     <img src="Images/bus3.png">
+     <img src="" alt="">
+     <img src="" alt="">
+  </div>
+
+</div>
+
+  </body>
+</html>
